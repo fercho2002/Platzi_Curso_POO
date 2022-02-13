@@ -1,5 +1,7 @@
+<?php
 class Route{
-    public $id = integer;
-    public $start = float;
-    public $end = fload;
+    public $id;
+    public $start = array();
+    public $end = array();
 }
+?>

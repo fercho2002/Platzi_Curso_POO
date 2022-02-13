@@ -1,5 +1,8 @@
-function Route(){
-    this.id;
-    this.star;
-    this.end;
+class Route{
+    constructor(){
+        this.id;
+        this.star;
+        this.end;
+    }
+    
 }
