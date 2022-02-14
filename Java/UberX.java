@@ -8,4 +8,9 @@ class UberX extends Car{
         this.brand = brand;
         this.model = model;
     }
+    void printDataCar(){
+        if(getPassengenger()>=4){
+            System.out.println("-- License: "+license +"  -- Driver: "+driver.name+"  -- numero de pasajeros : "+getPassengenger());
+        }
+    }
 }
